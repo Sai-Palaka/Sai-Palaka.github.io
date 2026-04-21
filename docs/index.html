@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Palaka | Data Science Portfolio</title>
+
+  <!-- Base styles always loaded -->
+  <link rel="stylesheet" href="css/base.css" />
+
+  <!-- Theme stylesheet — controlled by `theme` in portfolio_config.yaml -->
+  <link rel="stylesheet" href="css/themes/gojo.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-name">Sai Sasank Palaka</div>
+      <div class="header-tagline">Aspiring Data Scientist | MSU Class of 2026</div>
+    </div>
+
+    <!-- Navigation bar -->
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== Main content (filled in by child templates) ===== -->
+  <main class="site-main">
+    
+
+<!-- ===== About section ===== -->
+<section id="about" class="section about-section">
+  <h2>About Me</h2>
+
+  <div class="about-text">
+    <p>I am a Michigan State University student interested in data science
+and analytics. I enjoy working with tools like Python, SQL, and
+data visualization to explore datasets and discover patterns.
+Through my coursework, I have completed projects analyzing real
+datasets such as Spotify music data and relational databases.
+I am interested in continuing to develop my technical skills and
+using data to solve practical problems.</p>
+  </div>
+
+  <h3>Skills</h3>
+  <div class="skills-text">
+    - Python
+- SQL
+- Pandas
+- Data Analysis
+- Data Visualization
+
+  </div>
+
+</section>
+
+<!-- ===== Projects section ===== -->
+<section id="projects" class="section projects-section">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/spotify_analysis.png"
+          alt="Thumbnail for Spotify Song Popularity Analysis"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">Spotify Song Popularity Analysis</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">Analyzed Spotify song data to understand which audio features are most related to song popularity.
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">pandas</span>
+          
+          <span class="tech-badge">matplotlib</span>
+          
+          <span class="tech-badge">Jupyter Notebooks</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>With so many different audio features available for songs, it can be difficult to understand what actually makes a song popular. The goal of this project was to identify which features have the strongest relationship with popularity.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>I analyzed a dataset of Spotify songs using Python and pandas. I explored relationships between features such as energy, danceability, loudness, tempo, and valence using summary statistics and visualizations to identify patterns.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>The analysis showed that energy and danceability had strong positive relationships with popularity, while tempo and loudness had little effect. This helps highlight which characteristics are more important when predicting song success.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/Sai-Palaka/Spotify-Project-CMSE-202" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+        </div>
+      </div>
+
+    </article>
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/placeholder_project_2.png"
+          alt="Thumbnail for Spartan Football Crowd Cheer Analysis"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">Spartan Football Crowd Cheer Analysis</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">Analyzed audio and attendance data from Spartan Stadium to understand what game events drive the loudest crowd reactions. Results were used to help the athletics department optimize in-game entertainment and — personally — to determine the exact moments when I should run onto the field for maximum dramatic effect.
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">pandas</span>
+          
+          <span class="tech-badge">seaborn</span>
+          
+          <span class="tech-badge">Plotly</span>
+          
+          <span class="tech-badge">Jupyter Notebooks</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>Fan energy is contagious, but it is also unpredictable. The athletics department wanted to know which in-game events (touchdowns, turnovers, big defensive stops, walk-up music choices) produced the biggest crowd reactions — and whether the pattern differed by opponent, weather, or game time. As the mascot, I had strong professional interest in this question.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>Combined play-by-play game data with decibel readings from stadium microphones across three seasons (~36 home games). Engineered features for score differential, down-and-distance, quarter, temperature, and opponent rank. Produced interactive Plotly dashboards that let non-technical staff filter by season and event type to explore crowd response patterns on their own.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>Defensive turnovers produced the loudest average crowd response — louder even than touchdowns — especially when MSU was trailing. Walk-up music selections in the 3rd quarter showed a statistically significant effect on cheer volume for games decided by fewer than 10 points. The athletics team used these findings to redesign the third-quarter entertainment package for the following season. I was given extra treats for my contributions.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/zeke-wonder-dog/spartan-cheer-analysis" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+          <a href="https://github.com/zeke-wonder-dog/spartan-cheer-analysis/blob/main/cheer_analysis.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+
+    </article>
+    
+  </div>
+</section>
+
+<!-- ===== Contact section ===== -->
+<section id="contact" class="section contact-section">
+  <h2>Contact</h2>
+  <ul class="contact-list">
+    
+    <li>
+      <span class="contact-label">Email:</span>
+      <a href="mailto:palakasa@msu.edu">palakasa@msu.edu</a>
+    </li>
+    
+    
+    <li>
+      <span class="contact-label">LinkedIn:</span>
+      <a href="www.linkedin.com/in/sai-palaka" target="_blank" rel="noopener">www.linkedin.com/in/sai-palaka</a>
+    </li>
+    
+    
+    <li>
+      <span class="contact-label">GitHub:</span>
+      <a href="https://github.com/Sai-Palaka" target="_blank" rel="noopener">https://github.com/Sai-Palaka</a>
+    </li>
+    
+  </ul>
+</section>
+
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <p>Built with the Data Science Portfolio Template &mdash; powered by Python &amp; Jinja2.</p>
+  </footer>
+
+</body>
+</html>
