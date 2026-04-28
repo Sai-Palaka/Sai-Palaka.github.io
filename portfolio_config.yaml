@@ -1,28 +1,18 @@
 # ============================================================
 # portfolio_config.yaml
 # ============================================================
-# This is the main configuration file for your portfolio site.
-# Edit the values below to personalize your site.
-# After editing, run:  uv run python build.py
-# ============================================================
 
 # --- Student profile ---
-# Point this to your profile file inside content/
 student_file: content/sai_palaka.yaml
 
 # --- Projects to display ---
-# List the YAML files (inside content/projects/) you want shown.
-# Remove example projects and add your own once you're ready.
 projects:
   - content/projects/spotify_analysis.yaml
-  - content/projects/example_project_2.yaml
+  - content/projects/nyc_311_analysis.yaml
+  - content/projects/aws_nyc311_pipeline.yaml
 
 # --- Theme ---
-# Built-in options: "light", "dark", "msu-light", "msu-dark"
-# You can also add your own CSS file under static/css/themes/ and
-# use its name here (without the .css extension).
 theme: gojo
 
 # --- Site metadata ---
-# Used in the HTML <title> tag and browser tab.
 site_title: "Sai Palaka | Data Science Portfolio"
