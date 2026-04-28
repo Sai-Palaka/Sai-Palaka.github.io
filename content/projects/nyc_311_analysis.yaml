@@ -1,0 +1,33 @@
+title: "NYC 311 Data Analysis"
+
+short_summary: >
+  Analyzed NYC 311 complaint data to identify trends across boroughs and
+  agencies. Focused on understanding complaint volume and resolution
+  times using structured data analysis.
+
+tech_stack:
+  - Python
+  - pandas
+  - SQL
+  - Data Cleaning
+
+problem_statement: >
+  NYC 311 generates a large volume of service request data that is
+  difficult to interpret without proper organization. The goal was to
+  analyze patterns in complaints across boroughs and agencies to better
+  understand service demand and efficiency.
+
+approach: >
+  Cleaned and structured raw complaint data, then analyzed it using
+  Python and SQL. Computed metrics such as complaint counts and average
+  resolution times by borough and agency to uncover patterns in service
+  requests.
+
+results_impact: >
+  Found clear differences in complaint volume and response times across
+  agencies and boroughs. The analysis highlights how data can be used to
+  identify inefficiencies and improve service delivery in large cities.
+
+repo_url: "https://github.com/Sai-Palaka/YOUR-REPO-LINK"
+notebook_url: ""
+image_path: "img/placeholder_project_1.png"

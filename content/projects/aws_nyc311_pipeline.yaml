@@ -1,0 +1,34 @@
+title: "AWS NYC 311 Data Pipeline"
+
+short_summary: >
+  Built a cloud-based data pipeline using AWS S3 and Athena to analyze
+  NYC 311 service request data. Designed a scalable workflow for storing,
+  querying, and extracting insights from large real-world datasets.
+
+tech_stack:
+  - AWS S3
+  - AWS Athena
+  - SQL
+  - Python
+  - pandas
+
+problem_statement: >
+  Large-scale public datasets like NYC 311 are difficult to analyze due
+  to their size and unstructured format. The goal was to create an
+  efficient cloud-based system to store, query, and analyze complaint
+  data across agencies and boroughs.
+
+approach: >
+  Stored raw data in AWS S3 and organized it into structured formats for
+  querying with AWS Athena. Used SQL queries to analyze complaint volume,
+  response times, and patterns across agencies. Designed the workflow to
+  be scalable and easy to extend for future analysis.
+
+results_impact: >
+  Identified trends in complaint distribution and resolution times across
+  NYC agencies. Demonstrated how cloud-based tools can efficiently handle
+  large datasets and support real-time data analysis workflows.
+
+repo_url: "https://github.com/Sai-Palaka/aws-nyc311-palakasa"
+notebook_url: ""
+image_path: "img/spotify_analysis.png"
