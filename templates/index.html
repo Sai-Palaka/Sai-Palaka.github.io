@@ -5,7 +5,16 @@
 <!-- ===== About section ===== -->
 <section id="about" class="section about-section">
   <h2>About Me</h2>
-  <div class="about-text">{{ student.about | safe }}</div>
+
+  <div class="about-text">
+    {{ student.about | safe }}
+  </div>
+
+  <h3>Skills</h3>
+  <div class="skills-text">
+    {{ student.skills | safe }}
+  </div>
+
 </section>
 
 <!-- ===== Projects section ===== -->

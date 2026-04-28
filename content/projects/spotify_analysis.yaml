@@ -1,0 +1,37 @@
+# ============================================================
+# content/projects/spotify_analysis.yaml
+# ============================================================
+
+title: "Spotify Song Popularity Analysis"
+
+short_summary: >
+  Analyzed Spotify song data to understand which audio features
+  are most related to song popularity.
+
+tech_stack:
+  - Python
+  - pandas
+  - matplotlib
+  - Jupyter Notebooks
+
+problem_statement: >
+  With so many different audio features available for songs,
+  it can be difficult to understand what actually makes a song
+  popular. The goal of this project was to identify which features
+  have the strongest relationship with popularity.
+
+approach: >
+  I analyzed a dataset of Spotify songs using Python and pandas.
+  I explored relationships between features such as energy,
+  danceability, loudness, tempo, and valence using summary
+  statistics and visualizations to identify patterns.
+
+results_impact: >
+  The analysis showed that energy and danceability had strong
+  positive relationships with popularity, while tempo and
+  loudness had little effect. This helps highlight which
+  characteristics are more important when predicting song success.
+
+repo_url: "https://github.com/Sai-Palaka/Spotify-Project-CMSE-202"
+notebook_url: ""
+image_path: "img/spotify_analysis.png"

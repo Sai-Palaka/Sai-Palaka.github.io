@@ -1,0 +1,31 @@
+# ============================================================
+# content/example_student.yaml
+# ============================================================
+# This is an example student profile. Copy this file to
+# something like content/my_profile.yaml, fill in your own
+# information, and update portfolio_config.yaml to point to it.
+# ============================================================
+
+name: "Sai Sasank Palaka"
+tagline: "Aspiring Data Scientist | MSU Class of 2026"
+
+about: |
+  I am a Michigan State University student interested in data science
+  and analytics. I enjoy working with tools like Python, SQL, and
+  data visualization to explore datasets and discover patterns.
+  Through my coursework, I have completed projects analyzing real
+  datasets such as Spotify music data and relational databases.
+  I am interested in continuing to develop my technical skills and
+  using data to solve practical problems.
+
+skills: |
+  - Python
+  - SQL
+  - Pandas
+  - Data Analysis
+  - Data Visualization
+
+# Contact information — remove any fields you prefer not to share
+email: "palakasa@msu.edu"
+linkedin: "www.linkedin.com/in/sai-palaka"
+github: "https://github.com/Sai-Palaka"
